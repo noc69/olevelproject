@@ -1,0 +1,172 @@
+body, h1, h2, h3, p, ul, li, img, a, div, section, header, footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* About Us Section */
+.keimah {
+    padding: 3em 0;
+    text-align: center;
+    background-image: url(image/IMG_1023.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.keimah h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    color: #ffffff;
+}
+
+.keimah p {
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+    color: #ffffff;
+    font-style: italic;
+}
+
+/* Our Team Section */
+.nangmah {
+    padding: 3em 0;
+    background-image: url(image/about\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-resolution: 100%;
+    text-align: center;
+}
+
+.nangmah h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    color: #ffffff;
+}
+
+/* Team Members Grid */
+.nangmah2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2em;
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+}
+
+/* Team Member Item */
+.sotah, .sotah1, .sotah2, .sotah3 {
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.sotah img, .sotah1 img, .sotah2 img, .sotah3 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+.sotah h3, .sotah1 h3, .sotah2 h3, .sotah3 h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.sotah p, .sotah1 p, .sotah2 p, .sotah3 p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+header {
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.cart img {
+    width: 50px;
+    height: auto;
+    color: white;
+    background-color: antiquewhite;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .footer-info {
+    margin-bottom: 20px;
+}
+
+footer h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 1em;
+}
+
+footer .footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .footer-links ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer .footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+footer .footer-links ul li a:hover {
+    text-decoration: underline;
+}

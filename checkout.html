@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unknown Gaming Store</title>
+    <link rel="stylesheet" href="checkcss.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="image/IMG_1023.PNG" alt="Unknown Gaming Store Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <a href="cart.html">
+                <img src="image/shopping-bag.png" alt="cart logo">
+               </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="check">
+            <div class="container">
+                <h2>Checkout</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required placeholder="John Mark">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required placeholder="example@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address:</label>
+                        <textarea id="address" name="address" rows="3" required placeholder="New Capital,Delhi"> </textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="Pincode">Pincode:</label>
+                        <input type="number" id="number" name="number" required placeholder="56003">
+                    </div>
+                    
+                </form>
+            </div>
+
+            <div class="payment">
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Card Number: <img src="image/card accpet.png" alt="card"></label>
+                        <input type="number" id="name" name="name" required placeholder="4023 8032 8082 1000">
+                    </div>
+                    <div class="form-group">
+                        <label for="Exp month">EXP month:</label>
+                        <input type="number" id="number" name="number" required placeholder="07">
+                    </div>
+                    <div class="form-group">
+                        <label for="Exp Year">EXP Year:</label>
+                        <input type="number" id="number" name="number" required placeholder="2025">
+                    </div>
+                    <div class="form-group">
+                        <label for="CVV">CVV:</label>
+                        <input type="number" id="number" name="number" required placeholder="079">
+                    </div>
+                    
+                    <input type="submit" value="Proceed to buy" class="buybut">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-info">
+            <h3>Unknown Gaming Store</h3>
+            <p>Providing high-quality products and excellent customer service since 2010.</p>
+        </div>
+        <div class="footer-links">
+            <ul>
+                <li><a href="footer/privacy.html">Privacy Policy</a></li>
+                <li><a href="footer/Term.html">Terms of Service</a></li>
+                <li><a href="footer/return.html">Returns & Refunds</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

@@ -75,7 +75,7 @@ main {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1em;
-    color: #ffffff;
+    color: #000000;
 }
 
 .form-group input:focus,
